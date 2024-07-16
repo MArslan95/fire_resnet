@@ -1,0 +1,10 @@
+{
+    "model_name": "ResNet",
+    "optimizer": "Adam (\nParameter Group 0\n    amsgrad: False\n    base_momentum: 0.85\n    betas: (0.95, 0.999)\n    capturable: False\n    differentiable: False\n    eps: 1e-08\n    foreach: None\n    fused: None\n    initial_lr: 4e-05\n    lr: 3.9999999999999996e-05\n    max_lr: 0.001\n    max_momentum: 0.95\n    maximize: False\n    min_lr: 4e-09\n    weight_decay: 0.0005\n)",
+    "criterion": "CrossEntropyLoss()",
+    "scheduler": "<torch.optim.lr_scheduler.OneCycleLR object at 0x7f61a958f8e0>",
+    "device": "cuda",
+    "validate_freq": 1,
+    "save_intermediate": true,
+    "early_stopping_patience": 10
+}
