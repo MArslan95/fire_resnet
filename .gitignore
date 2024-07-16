@@ -1,0 +1,4 @@
+*.Identifier
+.ipynb_checkpoints/
+dataset/
+forest_fire_dataset/
